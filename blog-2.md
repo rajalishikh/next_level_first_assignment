@@ -1,4 +1,5 @@
 Title : How do Generics allow you to build reusable components and functions that stay strictly typed regardless of the data structures passed in?
+
 Introduction :
 প্রোগ্রামিং শেখার শুরুতে আমরা সবাই একটা কমন সমস্যায় পড়ি—কোড  (Code Reusability)। আমরা চাই এমন একটা ফাংশন বা কম্পোনেন্ট বানাতে যা বিভিন্ন ধরণের ডাটা স্ট্রাকচার নিয়ে কাজ করতে পারবে। কিন্তু সমস্যা হলো, ডাটা টাইপ ডাইনামিক করতে গিয়ে যদি আমরা any বা লুজ টাইপিং ব্যবহার করি, তাহলে কম্পাইল-টাইম টাইপ চেকিংয়ের (Strict Typing) ক্ষমতা হারিয়ে যায়। এখানেই জেনেরিক্স (Generics) খুব ভাল কাজ করে ।
 
