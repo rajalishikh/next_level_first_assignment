@@ -103,7 +103,7 @@ function getIntersection(arr1: number[], arr2: number[]): number[] {
     const set1 = new Set(arr1);
     
    let add_Array=arr2.filter(item => set1.has(item));
-   console.log(add_Array)
+  
     return add_Array
 }
 
